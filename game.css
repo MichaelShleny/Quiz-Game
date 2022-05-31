@@ -1,0 +1,71 @@
+.choice-container{
+    display:flex;
+    margin-bottom:0.5rem;
+    width:100%;
+    font-size:1.8rem;
+    border: 0.3rem solid rgb(116, 173, 187);
+    background-color: aliceblue;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 cyan;
+    transform: translateY(-0.1rem);
+    transition: transform 110ms;
+}
+.choice-prefix{
+    padding: 1.5rem 2.5rem;
+    background-color:rgb(14, 201, 248);
+    color: rgb(255, 255, 255);
+}
+
+.choice-text{
+    padding:1.5rem;
+    width: 100%;
+}
+
+.correct{
+    background-color: rgb(41, 224, 87);
+}
+
+.incorrect{
+    background-color: rgb(238, 42, 42) ;
+}
+
+/* HUD aka heads up display */
+
+#hud{
+    display:flex;
+    justify-content: space-between;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid #56a5eb;
+    margin-top: 1.5rem;
+}
+
+#progressBarFull{
+    height: 3.4rem;
+    background-color: #0a0a0a;
+    width: 0%;
+}
+
+/*LOADER*/
+#loader {
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid #56a5eb;
+    width: 12rem;
+    height: 12rem;
+}
